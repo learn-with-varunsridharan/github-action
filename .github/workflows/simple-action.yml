@@ -1,0 +1,17 @@
+name: "NodeJS Simple"
+
+on: [push]
+
+jobs:
+  nodejs_simple:
+    runs-on: ubuntu-latest
+    name: "A Simple Node JS Action"
+    steps:
+      - name: "Greet & Output Time"
+        id: hello
+        uses: learn-with-varunsridharan/github-action/nodejs-simple@main
+        with:
+          who-to-greet: 'Mona the Octocat'
+
+      - name: "Get the output time"
+        run: echo "The time was ${{ steps.hello.outputs.time }}"
