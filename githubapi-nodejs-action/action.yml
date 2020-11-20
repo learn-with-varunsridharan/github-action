@@ -1,0 +1,7 @@
+name: 'NodeJS Action With Github API'
+
+description: 'use of the `@actions/core` & `@actions/github` package, which is advanced action demo'
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

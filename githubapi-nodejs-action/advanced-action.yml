@@ -1,0 +1,13 @@
+name: "NodeJS Action With Github API"
+
+on: [push]
+
+jobs:
+  nodejs_action_with_github_api:
+    runs-on: ubuntu-latest
+    name: "A Advanced Node JS Action"
+    steps:
+      - name: "Create Issue With Current Time"
+        uses: learn-with-varunsridharan/github-action/githubapi-nodejs-action@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

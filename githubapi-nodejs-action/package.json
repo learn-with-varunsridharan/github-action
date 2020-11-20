@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-advanced-action",
+  "version": "1.0.0",
+  "description": "use of the `@actions/core` & `@actions/github` package, which is advanced action demo",
+  "main": "src/index.js",
+  "scripts": {
+    "prepare": "ncc build ./src/index.js -o dist --source-map --license licenses.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learn-with-varunsridharan/github-action.git"
+  },
+  "dependencies": {
+    "@vercel/ncc": "^0.25.1",
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learn-with-varunsridharan/github-action/issues"
+  },
+  "homepage": "https://github.com/learn-with-varunsridharan/github-action/tree/main/nodejs-advanced#readme"
+}
