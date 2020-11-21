@@ -1,0 +1,3 @@
+<h2><a href="https://varunsridharan.hashnode.dev/how-to-create-a-github-action-in-docker-ckhrmkgdu04lus6s1f3li1xzv" title="How To Create A Github Action In Docker">How To Create A Github Action In Docker</a></h2>
+<a href="https://varunsridharan.hashnode.dev/how-to-create-a-github-action-in-docker-ckhrmkgdu04lus6s1f3li1xzv" title="How To Create A Github Action In Docker"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1605959031974/bqCVC1R-2.jpeg" alt="How To Create A GitHub Action In NodeJS" /></a>
+<p>In the previous blog, we have learnt how to create Github actions using Node.js. In this blog we will learn how to build a Github action using Docker. This will be similar to the simple action in Node.js, which will greet the user and set an output v...</p>
